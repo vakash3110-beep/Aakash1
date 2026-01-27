@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aakash V | Physics Student</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash V | Physics Student</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,84 +11,99 @@
             margin: 0;
             padding: 0;
         }
-        header {
-            background-color: #1f3c88;
-            color: white;
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #ffffff;
             padding: 20px;
-            text-align: center;
         }
-        section {
-            background-color: white;
-            margin: 20px;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        header img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #333;
+        }
+        h1 {
+            margin: 0;
+            color: #222;
         }
         h2 {
-            color: #1f3c88;
+            color: #444;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
         }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #1f3c88;
-            color: white;
+        p {
+            line-height: 1.6;
+        }
+        .section {
+            margin-top: 25px;
+        }
+        .contact p {
+            margin: 5px 0;
         }
     </style>
 </head>
 
 <body>
+<div class="container">
 
-<header>
-    <h1>Aakash V</h1>
-    <p>M.Sc. Physics Student | Aspiring Researcher</p>
-</header>
+    <!-- Header Section -->
+    <header>
+        <img src="profile.jpg" alt="Akash V Photo">
+        <div>
+            <h1>Akash V</h1>
+            <p>M.Sc Physics Student | Aspiring Researcher | Class 11 Physics Tutor</p>
+        </div>
+    </header>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        I am a first-year M.Sc. Physics student with a strong interest in theoretical and experimental physics.
-        I actively participate in intercollegiate events, workshops, and academic programs.
-        I enjoy learning, teaching, and exploring new scientific ideas.
-    </p>
-</section>
+    <!-- Contact Section -->
+    <div class="section contact">
+        <h2>Contact Details</h2>
+        <p><strong>Email:</strong> vakash3110@gmail.com</p>
+        <p><strong>Phone:</strong> 6383672601</p>
+    </div>
 
-<section>
-    <h2>Academic Details</h2>
-    <ul>
-        <li><strong>Degree:</strong> M.Sc. Physics</li>
-        <li><strong>Institution:</strong> Madras Christian College</li>
-        <li><strong>Academic Interests:</strong> Statistical Physics, Probability Theory, Electronics</li>
-    </ul>
-</section>
+    <!-- Education Section -->
+    <div class="section">
+        <h2>Education</h2>
+        <p>
+            <strong>M.Sc Physics</strong><br>
+            Currently Pursuing (2025–2027)
+        </p>
+        <p>
+            <strong>B.Sc Physics</strong><br>
+            Madras Christian College (2022–2025)<br>
+            Secured 87%
+        </p>
+    </div>
 
-<section>
-    <h2>Teaching Experience</h2>
-    <p>
-        I work as a <strong>Physics Tutor for Class 11</strong>, helping students understand
-        fundamental concepts through clear explanations and problem-solving approaches.
-    </p>
-</section>
+    <!-- Teaching Experience -->
+    <div class="section">
+        <h2>Teaching Experience</h2>
+        <p>
+            Tutor for Class 11 Physics, helping students build strong conceptual
+            understanding through clear explanations and problem-solving approaches.
+        </p>
+    </div>
 
-<section>
-    <h2>Achievements</h2>
-    <ul>
-        <li>First Place – Physics Quiz, PHYSICA 2025</li>
-        <li>Second Place – Innovative & Illuminate Intercollegiate Event</li>
-        <li>Participant – IMSC Foundation Series 2025 (Theoretical Physics)</li>
-    </ul>
-</section>
+    <!-- About Me -->
+    <div class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate physics student currently pursuing my M.Sc in Physics.
+            My academic interests include theoretical physics, probability theory,
+            and experimental techniques. I enjoy teaching, participating in
+            academic events, and continuously improving my skills through workshops
+            and hands-on learning.
+        </p>
+    </div>
 
-<section>
-    <h2>Contact</h2>
-    <p>
-        <strong>Email:</strong> your-email@example.com <br>
-        <strong>Location:</strong> Chennai, India
-    </p>
-</section>
-
-<footer>
-    <p>© 2025 Aakash V | Physics Enthusiast</p>
-</footer>
-
+</div>
 </body>
 </html>
